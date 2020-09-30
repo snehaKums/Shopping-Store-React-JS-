@@ -73,10 +73,12 @@ class App extends React.Component {
           <div className="grid-container">
             <header>
               <a href="/">Shopping Store</a>
+              <img src={require('./images/dress1.jpg')}></img>
             </header>
             <main>
               <div className="content">
                 <div className="main">
+                  
                   <Filter count={this.state.products.length}
                   size={this.state.size}
                   sort={this.state.sort}
